@@ -1,4 +1,4 @@
-# Restaurant Page
+# Dummy Restaurant Page
 [Click here to view](https://cxnzensei.github.io/restaurant-page/)
 
 # webPack
