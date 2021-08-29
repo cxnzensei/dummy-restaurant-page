@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Monoton&family=Parisienne&family=Playball&family=Tangerine:wght@700&display=swap');
+/* font-family: 'Courgette', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Tangerine', cursive; */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html::-webkit-scrollbar { 
+    width: 0 !important 
+}
+body {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#title {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 25px;
+    font-family: 'Playball', cursive;
+    border: 0.5px solid rgb(0, 0, 0);
+    margin-top: 20px;
+    background-color: rgb(114, 56, 56);
+    color: rgb(255, 255, 255);
+}
+#header {
+    /* margin-left: 25px; */
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+}
+#home {
+    cursor: pointer;
+}
+#menu {
+    cursor: pointer;
+}
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 45px;
+    font-size: 35px;
+    background-color: rgb(114, 56, 56);
+    font-family: 'Playball', cursive;
+    color: rgb(255, 255, 255);
+}
+#footer div a {
+    color: rgb(255, 255, 255);
+}
+#contact {
+    cursor: pointer;
+}
+#content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.homeJS {
+    font-size: 25px;
+    font-family: 'Playball', cursive;
+}
+.menuJS {
+    font-size: 20px;
+    font-family: 'Playball', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.remarkTitle {
+    font-size: 25px;
+}
+.map {
+    padding: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: rgb(209, 155, 155);
+}
+#github_logo {
+    height: 70px;
+    width: 70px;
+}
+#github_logo:hover {
+    opacity: 0.65;
+}
